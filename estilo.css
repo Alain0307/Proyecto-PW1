@@ -1,0 +1,252 @@
+body{
+    background: #f9efce; /* Esto es para ponerle color*/
+}
+
+#encabezado{
+    position: relative; /*Utilice este atributo para que se vayan moviendo conforme añada más */
+    background: #361f0f;
+    width: 1325px; /* Esto es para establecer ancho y la línea de abajo para la altura del div*/
+    height: 50px;
+    border-radius: 10px; /*Esto es para redondear el radio del div */
+    display: flex; /*Esto es para hacer flexible el div y poder acomodar los objetos de adentro uno despues del otro */
+    justify-content: space-between; /* Esto es para poner un espacio entre cada objeto, en este caso los titulos*/
+    align-items: center; /*Esto es para que los objetos se ubiquen centrados */
+    border: 5px; /* Esto es para darle un borde de 5px*/
+    padding: 5px; /*Esto es para expandir un poco (5px) el div para que quepa bien el texto */
+}
+
+#titulo{
+    position: relative;
+    margin-top: -40px; /* Esto es para que no quede pegado este div al div de arriba, le da un margen nadamas por arriba */
+    background: #f8c1bf;
+    font-size: 40px; /*Esto es para establecer el tamaño de fuente del texto adentro del div */
+    width: 1325px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center; /*Esto es para que el texto se encuentre en el centro */
+    
+}
+
+#MPB{
+    position: relative;
+    background: #c2e0bc;
+    width: 1325px;
+    height: 500px;
+    margin-top: 25px;
+    border-radius: 10px;  
+    align-items: center;
+
+}
+
+
+#parte1{
+    position: relative;
+    border: 5px solid black; /*Esto es para darle un borde de 5px y que se muestre de color negro */
+    width: 1250px;
+    height: 175px;
+    margin: 35px; /*Darle un margen de 35 px en todos los lados */
+    top: 30px; /* Esto es para mover al div respecto arriba */
+    left: -10px;/*Esto es para mover al div respecto a la izquierda */
+    text-align: justify; /*Esto es para que el texto adentro del div este justificado */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#parte2{
+    position: relative;
+    border: 5px solid black;
+    width: 1250px;
+    height: 175px;
+    margin: 35px;
+    top: 30px;
+    left: -10px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ima{
+    position: absolute; /*Esto es para que se pueda mover libremente el div sin afectar a los demas div */
+    z-index: 2; /*Esto es para darle un nivel más de importancia al div y se muestre sobre otros div */
+    left: 70px;
+    top: 70px;
+}
+
+#ima2{
+    position: absolute; 
+    z-index: 2;
+    left: 1100px;
+    top: 70px;
+}
+
+#MCB{
+    position: relative;
+    background: #83b4bb;
+    width: 1325px;
+    height: 1000px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#ima3{
+    position: absolute; 
+    z-index: 2;
+    left: 1100px;
+    top: 550px;
+}
+
+#izquierda{
+    position: relative;
+    border: 5px solid black;
+    width: 550px;
+    height: 922px;
+    left: 3%;
+    top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#derecha{
+    position: relative;
+    border: 5px solid black;
+    width: 550px;
+    height: 922px;
+    top: 30px;
+    left: -3%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#ima4{
+    position: absolute; 
+    z-index: 2;
+    left: 725px;
+    top: 1100px;
+}
+
+#ima5{
+    position: absolute; 
+    z-index: 2;
+    left: 300px;
+    top: 650px;
+}
+
+#galeria{
+    position: relative;
+    background: #c2e0bc;
+    width: 1325px;
+    height: 1325px;
+    margin-top: 25px;
+    border-radius: 10px;  
+    display: flex;
+    flex-wrap: wrap; /*Esto es para que los objetos adentro del div se alineen en una o varias lineas paralelas para que en este caso queden 2 arriba y como no caben despues en el div, queden los otros dos abajo alineados */
+    justify-content: space-between;
+    text-align: center;
+}
+
+#img1{
+    position: relative;
+    border: 5px solid black;
+    width: 570px;
+    height: 570px;
+    margin: 30px;
+    top: 55px;
+}
+
+#img2{
+    position: relative;
+    border: 5px solid black;
+    width: 570px;
+    height: 570px;
+    margin: 30px;
+    top: 55px;
+}
+
+#img3{
+    position: relative;
+    border: 5px solid black;
+    width: 570px;
+    height: 570px;
+    margin: 30px;
+}
+
+#img4{
+    position: relative;
+    border: 5px solid black;
+    width: 570px;
+    height: 570px;
+    margin: 30px;
+}
+
+#tituloga{
+    position: absolute; 
+    z-index: 2;
+    left: 595px;
+    top: 1760px;  
+}
+
+#promo{
+    position: relative;
+    background: #83b4bb;
+    width: 1325px;
+    height: 700px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#izquierda1{
+    position: relative;
+    border: 5px solid black;
+    width: 550px;
+    height: 600px;
+    left: 3%;
+    top: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#derecha2{
+    position: relative;
+    border: 5px solid black;
+    width: 550px;
+    height: 600px;
+    top: 35px;
+    left: -3%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#ima6{
+    position: absolute; 
+    z-index: 2;
+    left: 775px;
+    top: 3420px;
+}
+
+#ima7{
+    position: absolute; 
+    z-index: 2;
+    left: 425px;
+    top: 3050px;
+}
+
+#pie{
+    background: #f8c1bf;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
